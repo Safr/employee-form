@@ -1,0 +1,23 @@
+.SuggestionList {
+  position: absolute;
+  z-index: 100;
+  top: 2.3rem;
+  left: -2.5rem;
+  width: 100%;
+  list-style: none;
+  background-color: #fff;
+}
+
+.SuggestionList li {
+  padding: .3rem;
+  margin-bottom: .2rem;
+  color: #000;
+  border: 1px solid #a7aaa9;
+  border-radius: 3px;
+}
+
+.SuggestionList li:hover {
+  color: #fff;
+  background-color: #08ad70;
+  border: 1px solid transparent;
+}

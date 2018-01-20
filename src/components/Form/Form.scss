@@ -1,0 +1,16 @@
+.Form {
+  // display: flex;
+  // flex-direction: column;
+}
+
+.FormButton {
+  position: relative;
+  left: 60%;
+}
+
+@media screen and (max-width: 600px) {
+  .FormButton {
+    position: static;
+    left: 0;
+  }
+}

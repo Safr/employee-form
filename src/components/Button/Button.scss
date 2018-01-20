@@ -1,0 +1,25 @@
+.Button {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 40%;
+  padding: .8rem 0;
+  background-color: #08ad70;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, .5);
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+.Button:active,
+.Button:hover {
+  background-color: #079963;
+}
+
+@media screen and (max-width: 600px) {
+  .Button {
+    width: 100%;
+  }
+}

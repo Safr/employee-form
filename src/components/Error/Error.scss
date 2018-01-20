@@ -1,0 +1,22 @@
+.error {
+  position: absolute;
+  bottom: .5rem;
+  left: 0;
+  font-size: .7rem;
+  color: #ef461c;
+  animation: animate .3s ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(.7);
+  }
+
+  0% {
+    transform: scale(1);
+  }
+}

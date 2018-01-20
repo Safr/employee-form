@@ -1,0 +1,18 @@
+.Wrapper {
+  max-width: 900px;
+  width: 95%;
+  margin: 2em auto;
+}
+
+@media (min-width: 768px) {
+  .Wrapper {
+    width: 80%;
+    margin: 4em auto;
+  }
+}
+
+@media (min-width: 947px) {
+  .Wrapper {
+    width: 60%;
+  }
+}
