@@ -47,7 +47,7 @@ export default {
     phone: {
       elementType: 'input',
       elementConfig: {
-        type: 'text',
+        type: 'tel',
         placeholder: 'Мобильный телефон',
         halfwidth: 'true',
       },
